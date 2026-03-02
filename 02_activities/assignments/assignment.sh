@@ -11,10 +11,10 @@ set -x
 
 if [ -d newproject ]; then
   echo "Recreating the newproject directory"
-  rm -rf ~/dsi_genetics/shell/newproject
+  rm -rf newproject
 fi
-mkdir ~/dsi_genetics/shell/newproject
-cd ~/dsi_genetics/shell/newproject
+mkdir newproject
+cd newproject
 
 mkdir analysis output
 touch README.md
